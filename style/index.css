@@ -102,6 +102,7 @@ section {
 }
 body {
   line-height: 1;
+  justify-content: space-around;
 }
 ol,
 ul {
@@ -131,12 +132,16 @@ table {
 }
 
 header {
-  background-color: #242f40;
+  background-color: #0d0d0e;
   padding: 20px;
   margin-bottom: 50px;
   font-family: "Noto Serif Display", serif;
   font-size: 4rem;
   color: white;
+}
+h3 {
+  justify-content: space-around;
+  justify-items: space-around;
 }
 .img1 {
   height: 200;
@@ -222,7 +227,8 @@ header {
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
-  background-color: #111;
+  justify-content: space-around;
+
 }
 
 .title {
@@ -244,6 +250,7 @@ h1 {
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
+  font-family: 'Amatic SC', cursive;
   font-size: 120px;
   line-height: 0.75;
   margin: 10px 0;
@@ -417,7 +424,7 @@ h2 {
 .topsection {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: white;
 }
 
@@ -462,10 +469,16 @@ button:hover {
 button a {
   text-decoration: none;
   color: inherit;
+  justify-content: space-around;
 }
 
 .fa-linkedin {
   background: #007bb5;
+  color: white;
+  padding: 20px;
+}
+.fa-github {
+  background: #030505;
   color: white;
   padding: 20px;
 }
