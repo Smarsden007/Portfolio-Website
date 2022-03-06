@@ -136,7 +136,7 @@ header {
   padding: 20px;
   margin-bottom: 50px;
   font-family: "Noto Serif Display", serif;
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
 }
 h3 {
@@ -251,9 +251,10 @@ h1 {
   -webkit-background-clip: text;
   text-transform: uppercase;
   font-family: 'Amatic SC', cursive;
-  font-size: 120px;
+  font-size: 90px;
   line-height: 0.75;
   margin: 10px 0;
+  
 }
 /* styling my button */
 
@@ -406,9 +407,9 @@ img {
   border-radius: 3%;
 }
 footer {
-  background-color: #242f40;
+  background-color: #080808;
   text-align: center;
-  padding: 20px;
+  padding: px;
 }
 
 h2 {
@@ -478,7 +479,7 @@ button a {
   padding: 20px;
 }
 .fa-github {
-  background: #030505;
+  background: #353b3b;
   color: white;
   padding: 20px;
 }
