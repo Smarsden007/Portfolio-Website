@@ -432,6 +432,7 @@ h2 {
 .description {
   padding: 20px;
   width: 50%;
+  align-items: space-around;
 }
 
 .row {
